@@ -1,0 +1,8 @@
+CREATE TABLE videos (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    titulo TEXT NOT NULL,
+    duracao INTEGER NOT NULL,
+    data_upload TEXT DEFAULT (DATETIME()) NOT NULL
+);
+
+SELECT * FROM videos;
