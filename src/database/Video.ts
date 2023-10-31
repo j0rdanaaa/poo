@@ -1,4 +1,4 @@
-export class Videos {
+export class Video {
     constructor(
         private id: string,
         private titulo: string,
