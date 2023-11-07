@@ -1,6 +1,5 @@
-export type TVideos = {
+export interface UserDB {
     id: string,
-    titulo: string,
-    duracao: number,
-    data_upload: string
+    name: string,
+    created_at:string
 }
